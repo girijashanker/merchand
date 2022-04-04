@@ -1,0 +1,27 @@
+
+
+cp -pr /fr/Oracle/Middleware/scripts/forms.conf  /fr/Oracle/Middleware/Oracle_Home/user_projects/domains/manthan/config/fmwconfig/components/OHS/instances/ohs1/moduleconf/forms.conf
+cp -pr /fr/Oracle/Middleware/scripts/forms.conf /fr/Oracle/Middleware/Oracle_Home/user_projects/domains/manthan/config/fmwconfig/components/OHS/ohs1/moduleconf/forms.conf
+cp -pr /fr/Oracle/Middleware/scripts/forms.conf /fr/Oracle/Middleware/Oracle_Home/ohs/templates/conf/moduleconf/forms.conf
+cp -pr /fr/Oracle/Middleware/scripts/reports_ohs.conf 
+/fr/Oracle/Middleware/Oracle_Home/ohs/templates/conf/moduleconf/reports_ohs.conf
+cp -pr /fr/Oracle/Middleware/scripts/reports_ohs.conf  /fr/Oracle/Middleware/Oracle_Home/reports/conf/reports_ohs.conf
+cp -pr /fr/Oracle/Middleware/scripts/reports_ohs.conf  /fr/Oracle/Middleware/Oracle_Home/user_projects/domains/manthan/config/fmwconfig/components/OHS/instances/ohs2/moduleconf/reports_ohs.conf
+cp -pr /fr/Oracle/Middleware/scripts/reports_ohs.conf  /fr/Oracle/Middleware/Oracle_Home/user_projects/domains/manthan/config/fmwconfig/components/OHS/ohs2/moduleconf/reports_ohs.conf
+
+
+
+./oracle_common/modules/oracle.jps/domain_config/cwallet.sso
+
+./user_projects/domains/mantra/config/fmwconfig/components/OHS/ohs1/keystores/default/cwallet.sso
+./user_projects/domains/mantra/config/fmwconfig/components/OHS/ohs1/keystores/dskeystore/cwallet.sso
+./user_projects/domains/mantra/config/fmwconfig/components/OHS/ohs1/keystores/test_dsl/cwallet.sso
+./user_projects/domains/mantra/config/fmwconfig/components/OHS/ohs1/keystores/erp_dsgroup/cwallet.sso
+./user_projects/domains/mantra/config/fmwconfig/components/OHS/instances/ohs1/keystores/default/cwallet.sso
+./user_projects/domains/mantra/config/fmwconfig/components/OHS/instances/ohs1/keystores/dskeystore/cwallet.sso
+./user_projects/domains/mantra/config/fmwconfig/components/OHS/instances/ohs1/keystores/new_keystore/cwallet.sso
+
+./user_projects/domains/mantra/config/fmwconfig/cwallet.sso
+./user_projects/domains/mantra/config/fmwconfig/bootstrap/cwallet.sso
+./user_projects/domains/mantra/security/cwallet.sso
+./owm/wallets/oracle/cwallet.sso
